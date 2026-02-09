@@ -6,6 +6,7 @@ This repository contains the code for Compressible DNS in a 3-dimensional period
 4. Store simulation parameters like Mt, Rl, u'rms, lambda, epsilon, mean density, and vel derivative skewness & kurtosis.
 5. Store energy spectrum after a pre-defined number of timesteps.
 6. Compute triadic interactions - the generator scripts for triad indices in triadic\_interactions folder need to be run before this. _The numerical basis for triadic interaction computation can be found in Appendix-C of Reference.pdf attached in this repository._
+
 Inspiration for the code structure was taken from [this repository](https://github.com/spectralDNS/spectralDNS), which is for incompressible spectral DNS.
 
 ---
