@@ -13,6 +13,10 @@ There are a few initial conditions to choose from. The first 2 are for testing t
 The reference for the initial solving of initial condition can be found in the Appendix-B of Reference.pdf attached in this repository.
 
 ---
+### Port to Julia
+There is an incomplete port to Julia (triadic interactions not implemented), which is of advantage to those who only want to run the DNS without the requirement of triadic interactions. The speed-up in Julia is > 2x for N >= 64. Performance of Julia also increases with increased number of cores.
+
+---
 ### LICENSE
 This code is released under MIT License.
 
